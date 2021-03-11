@@ -1,0 +1,47 @@
+version: '3'
+
+services:
+  rasa:
+    image: rasa/rasa:1.10.2
+    container_name: rasa-web
+    depends_on:
+    - "app"
+    - "duckling"
+    ports:
+    - "5005:5005"
+    volumes:
+    - "./:/app"
+    environment:
+      AWS_ACCESS_KEY_ID: 'AKIAZGPBN3IW53JMCSHA'
+      AWS_SECRET_ACCESS_KEY: '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'
+    command:
+      run -m models --enable-api --cors "*" --debug
+
+  app:
+    build: .
+    container_name: rasa-actions
+    expose:
+    - "5055"
+
+  duckling:
+    image: rasa/duckling:latest
+    container_name: duckling
+    expose:
+    - "8000"
+
+  # rasa2:
+    # image: rasa/rasa:1.10.2
+    # container_name: rasa-db
+    # ports:- "5000:5000"
+    # volumes:- "./:/app"
+    # environment:
+      # AWS_ACCESS_KEY_ID: 'AKIAZGPBN3IW73WHG3TE'
+      # AWS_SECRET_ACCESS_KEY: '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'
+    # command:
+      # run -m models --endpoints endpoints.yml
+
+  #dynamodb-local:
+    #image: amazon/dynamodb-local:latest
+    #container_name: dynamodb
+    #ports:
+    #  - "8080:8080"
