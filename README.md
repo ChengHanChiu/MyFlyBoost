@@ -12,6 +12,10 @@ Multi-round conversational flight booking robot -with Rasa
 ### 9輪訂票
 <img src="https://github.com/ChengHanChiu/MyFlyBoost/blob/main/demonstration/9%E8%BC%AA%E8%A8%82%E7%A5%A8.gif" alt="Cover" width="40%"/>
 
+### 3輪訂票
+<img src="https://github.com/ChengHanChiu/MyFlyBoost/blob/main/demonstration/3%E8%BC%AA%E8%A8%82%E7%A5%A8.gif" alt="Cover" width="40%"/>
+
+
 
 
 
