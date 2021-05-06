@@ -10,7 +10,7 @@ Multi-round conversational flight booking robot -with Rasa
 ## Demonstration
 
 ### 9輪訂票
-<img src="images/cover.png" alt="Cover" width="40%"/>
+<img src="images/cover.png" alt="Cover" width="50%"/>
 
 
 
