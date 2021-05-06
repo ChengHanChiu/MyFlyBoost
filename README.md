@@ -11,8 +11,8 @@ Multi-round conversational flight booking robot -with Rasa
 
 ## Demonstration
 * [Multi-round flight booking](https://github.com/ChengHanChiu/MyFlyBoost#1-multi-round-flight-booking) 
-    * [9 rounds completed](https://github.com/ChengHanChiu/MyFlyBoost/blob/main/README.md#9-rounds)
-    * [3 rounds completed](https://github.com/ChengHanChiu/MyFlyBoost/blob/main/README.md#3-rounds)
+    * [9 rounds completed](https://github.com/ChengHanChiu/MyFlyBoost#9-rounds-completed)
+    * [3 rounds completed](https://github.com/ChengHanChiu/MyFlyBoost#3-rounds-completed)
 * [Weather query](https://github.com/ChengHanChiu/MyFlyBoost#2-weather-query)  
 * [FAQ](https://github.com/ChengHanChiu/MyFlyBoost#3-faq)
 * [Chitchat](https://github.com/ChengHanChiu/MyFlyBoost#4-chitchat)
