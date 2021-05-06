@@ -4,7 +4,7 @@ TKUIM 2020 independent study
 
 Multi-round conversational flight booking robot -with Rasa  
 
-![Image](https://imgur.com/gallery/3jVi0yI)
+![Image](https://github.com/ChengHanChiu/MyFlyBoost/blob/main/demonstration/Demo%E5%BD%B1%E7%89%87.gif)
 
 
 
