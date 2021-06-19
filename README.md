@@ -37,7 +37,7 @@ Multi-round conversational flight booking robot -with Rasa
 ### 5. Unhappy Path
 <img src="https://github.com/ChengHanChiu/MyFlyBoost/blob/main/demonstration/Unhappy%20Path.gif" alt="Cover" width="40%"/>
 
-### 6. Reconfirm intent
+### 6. Reconfirm ntent
 <img src="https://github.com/ChengHanChiu/MyFlyBoost/blob/main/demonstration/%E6%84%8F%E5%9C%96%E9%87%8D%E6%96%B0%E7%A2%BA%E8%AA%8D.gif" alt="Cover" width="40%"/>
 
 
